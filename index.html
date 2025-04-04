@@ -4,67 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <link rel="icon" href="https://fav.farm/🚀" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ChatVisible makes your API docs AI-ready. Reduce churn and boost developer experience.">
+    <meta name="description" content="ChatVisible makes your API docs AI-ready for GPT and AI copilots. Help developers succeed, reduce churn, and boost adoption.">
     <meta name="author" content="Anfal">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://chatvisible.ai/">
     <meta property="og:title" content="ChatVisible – Make Your API Docs AI-Ready">
-    <meta property="og:description" content="Reduce churn and boost developer experience by making your docs AI-ready.">
+    <meta property="og:description" content="Help GPT and copilots understand your API. Cut support tickets and increase developer adoption.">
     <meta property="og:image" content="https://cdn.picofuture.com/static/imgs/logos/chatvisible-logo.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://chatvisible.ai/">
     <meta name="twitter:title" content="ChatVisible – Make Your API Docs AI-Ready">
-    <meta name="twitter:description" content="Reduce churn and boost developer experience by making your docs AI-ready.">
+    <meta name="twitter:description" content="Help GPT and copilots understand your API. Cut support tickets and increase developer adoption.">
     <meta name="twitter:image" content="https://cdn.picofuture.com/static/imgs/logos/chatvisible-logo.png">
 
     <title>ChatVisible</title>
     <style>
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-            background-color: #ffffff;
-            color: #111827;
+            background-color: #f0f4f8;
+            color: #1f2937;
             margin: 0;
             padding: 0;
         }
 
         header {
-            background-color: #f9fafb;
-            color: #111827;
-            padding: 60px 20px;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            color: #ffffff;
+            padding: 80px 20px;
             text-align: center;
-            border-bottom: 1px solid #e5e7eb;
+        }
+
+        header .logo-text {
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 10px;
+            color: #ffffff;
         }
 
         header h1 {
-            font-size: 3rem;
-            font-weight: 700;
+            font-size: 3.5rem;
+            font-weight: 800;
             margin-bottom: 10px;
         }
 
         header h2 {
-            font-weight: 400;
-            font-size: 1.25rem;
-            color: #6b7280;
+            font-weight: 500;
+            font-size: 1.5rem;
+            color: #e0e7ff;
         }
 
         section {
-            max-width: 720px;
+            max-width: 800px;
             margin: 0 auto;
             padding: 60px 20px;
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+            margin-top: -40px;
+            position: relative;
+            z-index: 1;
         }
 
         section h3 {
-            color: #111827;
             font-size: 1.75rem;
-            font-weight: 600;
+            font-weight: 700;
             margin-top: 40px;
             margin-bottom: 10px;
+            color: #111827;
         }
 
         section p {
@@ -74,7 +86,7 @@
         }
 
         .cta {
-            background-color: #6366f1;
+            background-color: #4f46e5;
             color: #fff;
             padding: 16px 32px;
             text-align: center;
@@ -84,12 +96,12 @@
             display: inline-block;
             margin-top: 24px;
             text-decoration: none;
-            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
             transition: background-color 0.3s ease;
         }
 
         .cta:hover {
-            background-color: #4f46e5;
+            background-color: #4338ca;
         }
 
         .footer {
@@ -106,41 +118,53 @@
 <body>
 
     <header>
-        <div>
-            <img src="https://cdn.picofuture.com/static/imgs/logos/chatvisible-logo.png" alt="ChatVisible Logo" style="height: 100px;" />
-            <h1>ChatVisible</h1>
-        </div>
-        <h2>Turn your API docs into ChatGPT’s best friend</h2>
+        <div class="logo-text">ChatVisible</div>
+        <h2>If ChatGPT can’t understand your API docs, developers won’t either.</h2>
     </header>
 
     <section>
-        <p>ChatVisible helps you reduce churn by making your docs AI-ready. With over 70% of developers now using AI
-            copilots, they rely on AI to integrate and explore products quickly. When they can't get a working solution,
-            they lose confidence and start looking for alternatives.</p>
+        <p>ChatVisible helps devtools teams make their docs AI-compatible so developers using GPT, Copilot, or Cursor can get working answers without context-switching or frustration. We help your API show up *right* inside AI tools with accurate, structured understanding — not broken guesses.</p>
 
-        <h3>🧠 The Problem</h3>
-        <p>AI copilots like Cursor, Github Copilot, and ChatGPT often give broken or incomplete suggestions for third-party tools —
-            because the data they retrieve is outdated, unstructured, or hard to interpret by the AI. Documentation
-            pages aren't optimized for AI: they include complex link trees, mixed content, and lack clear signals
-            about what to extract and how to use it.</p>
+        <h3>🧠 Why This Matters</h3>
+        <p>70%+ of developers are using AI copilots. If your API docs aren’t structured for AI, those copilots can’t answer key integration questions. That means more drop-off, more support load, and slower onboarding.</p>
 
-        <h3>🚀 The Solution</h3>
-        <p>ChatVisible acts as a smart layer on top of your documentation, transforming it into an AI-ready format. It
-            improves how your content is retrieved, structured, and interpreted by tools like Copilots and AI IDEs. It's
-            plug-and-play and requires zero setup on your part. You build the features — we make them AI-ready.</p>
+        <h3>🚀 How It Works</h3>
+        <p>We run a GPT-readiness audit on your public API docs. Then we give you a structured, no-BS report with:
+            <ul>
+                <li>✔ Real examples where GPT fails to guide users</li>
+                <li>✔ Fixes to make your docs semantically AI-readable</li>
+                <li>✔ An upgrade plan to go live with AI-ready content</li>
+            </ul>
+            No SDKs. No integrations. Just clarity.
+        </p>
 
-        <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/43de74f2225f473db4993cb2e124c565?sid=4e81f5cc-7a93-4e6b-b128-672638725c65" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        <h3>📉 Problem Deep Dive</h3>
+        <p>This short video walks through the core problem developers face when AI tools like ChatGPT try to parse modern API documentation. It's the "why now" behind ChatVisible.</p>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 30px;"><iframe src="https://www.loom.com/embed/43de74f2225f473db4993cb2e124c565?sid=4e81f5cc-7a93-4e6b-b128-672638725c65" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;"></iframe></div>
 
-        <h3>👀 Looking for a technical demo?</h3>
-        <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/1d868a93638d4cc58fc5cd16dc38ac0f?sid=1016b520-9d67-4f97-b52e-4ae912ef8a76" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+        <h3>👀 Want the technical walkthrough?</h3>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 30px;"><iframe src="https://www.loom.com/embed/1d868a93638d4cc58fc5cd16dc38ac0f?sid=1016b520-9d67-4f97-b52e-4ae912ef8a76" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;"></iframe></div>
 
-        <h3>👋 Join the Waitlist</h3>
-        <p>Be the first to get a free AI-readiness audit of your docs.</p>
+        <h3>📅 Get Your Free Audit</h3>
+        <p>If you’re a devtools founder or engineering leader, I’ll personally run an audit of your docs and send you the report. No pitch. No spam. Just signal.</p>
+
         <iframe
             data-tally-src="https://tally.so/embed/3qzBAO?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
             loading="lazy" width="100%" height="341" frameborder="0" marginheight="0" marginwidth="0"
             title="Join the waitlist"></iframe>
-        <script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc })) }; if ("undefined" != typeof Tally) v(); else if (d.querySelector('script[src="' + w + '"]') == null) { var s = d.createElement("script"); s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s); }</script>
+        <script>
+            var d = document, w = "https://tally.so/widgets/embed.js", v = function () {
+                "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function (e) {
+                    e.src = e.dataset.tallySrc
+                })
+            };
+            if ("undefined" != typeof Tally) v();
+            else if (d.querySelector('script[src="' + w + '"]') == null) {
+                var s = d.createElement("script");
+                s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s);
+            }
+        </script>
+
     </section>
 
     <div class="footer">
