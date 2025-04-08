@@ -3,24 +3,28 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="https://fav.farm/🚀" />
+    <link rel="icon" href="https://cdn.picofuture.com/static/imgs/chatvisible/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ChatVisible makes your API docs AI-ready for GPT and AI copilots. Help developers succeed, reduce churn, and boost adoption.">
+    <meta name="description" content="ChatVisible provides up-to-date API docs in your favorite AI-based IDEs">
     <meta name="author" content="Anfal">
+
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://chatvisible.ai/">
-    <meta property="og:title" content="ChatVisible – Make Your API Docs AI-Ready">
-    <meta property="og:description" content="Help GPT and copilots understand your API. Cut support tickets and increase developer adoption.">
-    <meta property="og:image" content="https://cdn.picofuture.com/static/imgs/logos/chatvisible-logo.png">
+    <meta property="og:title" content="ChatVisible – Get up-to-date API docs in your favorite AI-based IDEs">
+    <meta property="og:description" content="ChatVisible provides up-to-date API docs in your favorite AI-based IDEs">
+    <meta property="og:image" content="https://cdn.picofuture.com/static/imgs/chatvisible/logo.png">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://chatvisible.ai/">
-    <meta name="twitter:title" content="ChatVisible – Make Your API Docs AI-Ready">
-    <meta name="twitter:description" content="Help GPT and copilots understand your API. Cut support tickets and increase developer adoption.">
-    <meta name="twitter:image" content="https://cdn.picofuture.com/static/imgs/logos/chatvisible-logo.png">
+    <meta name="twitter:title" content="ChatVisible – Get up-to-date API docs in your favorite AI-based IDEs">
+    <meta name="twitter:description" content="ChatVisible provides up-to-date API docs in your favorite AI-based IDEs">
+    <meta name="twitter:image" content="https://cdn.picofuture.com/static/imgs/chatvisible/logo.png">
 
     <title>ChatVisible</title>
     <style>
@@ -35,7 +39,10 @@
         header {
             background: linear-gradient(135deg, #6366f1, #8b5cf6);
             color: #ffffff;
-            padding: 80px 20px;
+            padding-top: 40px;
+            padding-bottom: 80px;
+            padding-left: 20px;
+            padding-right: 20px;
             text-align: center;
         }
 
@@ -110,7 +117,50 @@
             color: #9ca3af;
             padding: 40px 20px;
             background-color: #f9fafb;
-            border-top: 1px solid #e5e7eb;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #0f172a;
+                color: #f8fafc;
+            }
+
+            header {
+                background: linear-gradient(135deg, #4f46e5, #7c3aed);
+                color: #ffffff;
+            }
+
+            header h2 {
+                color: #c7d2fe;
+            }
+
+            section {
+                background-color: #1e293b;
+                box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+            }
+
+            section h3 {
+                color: #e2e8f0;
+            }
+
+            section p {
+                color: #cbd5e1;
+            }
+
+            .cta {
+                background-color: #6366f1;
+                color: #ffffff;
+                box-shadow: 0 8px 20px rgba(99, 102, 241, 0.6);
+            }
+
+            .cta:hover {
+                background-color: #4f46e5;
+            }
+
+            .footer {
+                background-color: #0f172a;
+                color: #64748b;
+            }
         }
     </style>
 </head>
@@ -118,50 +168,40 @@
 <body>
 
     <header>
-        <div class="logo-text">ChatVisible</div>
-        <h2>If ChatGPT can’t understand your API docs, developers won’t either.</h2>
+        <img src="https://cdn.picofuture.com/static/imgs/chatvisible/logo.png" alt="ChatVisible Logo"
+            style="width: 100px; height: 100px;">
+        <!-- <div class="logo-text">ChatVisible</div> -->
+        <h2>Get up-to-date API docs in your favorite AI-based IDE</h2>
     </header>
 
     <section>
-        <p>ChatVisible helps devtools teams make their docs AI-compatible so developers using GPT, Copilot, or Cursor can get working answers without context-switching or frustration. We help your API show up <em>right</em> inside AI tools with accurate, structured understanding — not broken guesses.</p>
-
         <h3>🧠 Why This Matters</h3>
-        <p>70%+ of developers are using AI copilots. If your API docs aren’t structured for AI, those copilots can’t answer key integration questions. That means more drop-off, more support load, and slower onboarding.</p>
+        <p>Current AI-powered IDEs struggle with outdated API docs. They either lack knowledge of newly released APIs or
+            fail to keep up with constantly changing documentation. ChatVisible solves this by providing up-to-date API
+            docs directly inside your favorite AI-based IDEs and copilots.</p>
 
-        <h3>🚀 How It Works</h3>
-        <p>ChatVisible takes your existing API docs and restructures them into an AI-optimized format that GPT-based copilots can actually understand. It's a zero-setup, plug-and-play layer that sits on top of your existing docs — so you can keep shipping without worrying about breaking compatibility. No SDKs. No extra tooling. Just better outcomes for your developers — and fewer support tickets for your team.</p>
-
-        <h3>📉 Problem Deep Dive</h3>
-        <p>This short video walks through the core problem developers face when AI tools like ChatGPT try to parse modern API documentation. It's the "why now" behind ChatVisible.</p>
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 30px;"><iframe src="https://www.loom.com/embed/43de74f2225f473db4993cb2e124c565?sid=4e81f5cc-7a93-4e6b-b128-672638725c65" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;"></iframe></div>
-
-        <h3>👀 Want the technical walkthrough?</h3>
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 30px;"><iframe src="https://www.loom.com/embed/1d868a93638d4cc58fc5cd16dc38ac0f?sid=1016b520-9d67-4f97-b52e-4ae912ef8a76" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;"></iframe></div>
+        <h3>👀 See it in action</h3>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; margin-bottom: 30px;"><iframe
+                src="https://www.loom.com/embed/43ea175da8d648fba5cab97cce64bf67?sid=667e88cb-73b5-4373-a54c-1220cd14158b"
+                frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;"></iframe>
+        </div>
 
         <h3>📅 Join the Early Access List</h3>
-        <p>If you’re a devtools founder or engineering leader, we’re onboarding a small batch of teams for early access. Want in? We’ll reach out directly.</p>
+        <p>If you’re a devtools founder or engineering leader, we’re onboarding a small batch of teams for early access.
+            Want in? We’ll reach out directly.</p>
 
-        <iframe
-            data-tally-src="https://tally.so/embed/3qzBAO?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-            loading="lazy" width="100%" height="341" frameborder="0" marginheight="0" marginwidth="0"
-            title="Join the waitlist"></iframe>
-        <script>
-            var d = document, w = "https://tally.so/widgets/embed.js", v = function () {
-                "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function (e) {
-                    e.src = e.dataset.tallySrc
-                })
-            };
-            if ("undefined" != typeof Tally) v();
-            else if (d.querySelector('script[src="' + w + '"]') == null) {
-                var s = d.createElement("script");
-                s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s);
-            }
-        </script>
-
+        <div style="background: #ffffff; border-radius: 12px; padding: 24px;">
+            <iframe
+                data-tally-src="https://tally.so/embed/mJB9J4?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+                loading="lazy" width="100%" height="401" frameborder="0" marginheight="0" marginwidth="0"
+                title="Join the waitlist"></iframe>
+            <script>var d = document, w = "https://tally.so/widgets/embed.js", v = function () { "undefined" != typeof Tally ? Tally.loadEmbeds() : d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function (e) { e.src = e.dataset.tallySrc })) }; if ("undefined" != typeof Tally) v(); else if (d.querySelector('script[src="' + w + '"]') == null) { var s = d.createElement("script"); s.src = w, s.onload = v, s.onerror = v, d.body.appendChild(s); }</script>
+        </div>
     </section>
 
     <div class="footer">
-        © 2024 ChatVisible — Built with ❤️ for developers, by developers.
+        © 2025 ChatVisible — Built with ❤️ for developers, by developers.
     </div>
 
 </body>
